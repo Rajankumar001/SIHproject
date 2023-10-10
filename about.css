@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+font-family: 'Poppins', sans-serif;
+;
+
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+*{
+    width: 100%;
+}
+/* Header styles */
+header {
+    background: url(https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/bg-noise.png);
+
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main content styles */
+main {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    
+
+    
+}
+
+/* Section styles */
+.about, .team {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.history{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.Objective{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+ 
+
+}
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.history h2{
+    font-size: 3rem;
+    text-align: center;
+
+} 
+
+.Objective h2{
+    font-size: 3rem;
+    text-align: center;
+
+}

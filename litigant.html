@@ -3,58 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login / Sign Up Form</title>
-    <link rel="shortcut icon" href="/assests/favicon.ico">
+    <title>PRE TRIAL CONFERENCE PORTAL</title>
+    <script src="script.js"></script> 
     <link rel="stylesheet" href="litigant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <div class="container">
-        <form class="form" id="login">
-            <h1 class="form__title">Login</h1>
-            <div class="form__message form__message--error"></div>
-            <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Username or email">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="submit">Continue</button>
-            <p class="form__text">
-                <a href="#" class="form__link">Forgot your password?</a>
-            </p>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
-            </p>
-        </form>
-        <form class="form form--hidden" id="createAccount">
-            <h1 class="form__title">Create Account</h1>
-            <div class="form__message form__message--error"></div>
-            <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Email Address">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Confirm password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="submit">Continue</button>
-            <p class="form__text">
-                <a class="form__link" href="./" id="linklogin">Already have an account? Sign in</a>
-            </p>
-        </form>
+    
+    <!-- Banner  -->
+    <div class="banner">
+        <div class="container">
+            <ul>
+                <!-- <li><img src="./assets/Emblem_of_India.svg.png" height="10px" width="10px"></li> -->
+                <li><a lang="en" href="https://lawmin.gov.in" onclick="return confirm('You are being redirected to an external website. Please note that Department of Justice cannot be held responsible for external websites content &amp; privacy policies.');" aria-label="Ministry of Law and Justice, Government of India - External site that opens in a new window" title="Ministry of Law and Justice, Government of India - External site that opens in a new window" target="_blank" rel="noopener noreferrer">
+                Ministry of Law and Justice, Government of India            </a>
+                </li>
+            </ul>
+            
+        <div class="banner-text"><p>INJUSTICE ANYWHERE IS A THREAT TO JUSTICE EVERYWHERE</p></div>
+        </div>
     </div>
+    
+    <!-- Navigation Bar -->
+    <nav>
+    <div class="container-nav">
+        <div class="logo">
+        <img src="./assets/Emblem_of_India.svg.png" height="105px" width="65px">
+        &nbsp;&nbsp;PRE CONFERENCE TRIAL PORTAL 
+        </div> 
+        <div class="list">
+            <ul>
+             <li><a href="" class="active">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="">Services</a></li>
+             <li><a href="">Contact Us</a></li>
+             <input type="text" name="Search" id="Search-box" placeholder="Search"></input>
+             
+            </ul>
+        </div>
+       
+    </div>
+    </nav>
+    
+    <!-- Header block -->
+    <header>
+        <div class="container-head">
+            <div class="header-left">
+                <h1>Welcome to the Case Registration Portal </h1>
+            </div>
+            <div class="header-right"></div>
 
-    <script src="main.js"></script>
+        </div>
+
+    </header>
+
+    <!-- Companies-Section -->
+    <div class="Comapnies"></div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="container-features">
+            <div class="features-header">
+                <h2> Judicial services </h2>
+            </div>
+            <div class="features-flexbox">
+                <div class="features-card">
+                    <img src="./assets/law.png" height="100px" width="100px">
+                    <h3>Verdicts and Rulings </h3>
+                    <p>The litigant can know about the ruling given by the judge on his case</p>
+                    <a href="#" class="secondary-button" >Proceed  →</a>
+                </div>
+                <div class="features-card">
+                    <img src="./assets/application.png" height="100px" width="100px">
+                    <h3>Case Registration</h3>
+                    <p>Allows the users to file any case they want and then upload the required documents</p>
+                    <a href="#" class="secondary-button" >Proceed →</a>
+                </div>
+                <div class="features-card">
+                    <img src="./assets/calendar.png" height="100px" width="100px">
+                    <h3>Schedule </h3>
+                    <p>of upcoming trials and also to track previous proceedings</p>
+                    <a href="#" class="secondary-button" >Proceed →</a>
+                </div>
+                <div class="features-card">
+                    <img src="./assets/videoconference.png" height="100px" width="100px">
+                    <h3>Conference / Meet links</h3>
+                    <p>Provides a link for all concerned people to join in for the online trial/settlement.</p>
+                    <a href="#" class="secondary-button" >Proceed →</a>
+                </div>
+                <div class="features-card">
+                    <img src="./assets/documentation.png" height="100px" width="100px">
+                    <h3>Document Uploading </h3>
+                    <p>The case related documents are to be uploaded here </p>
+                    <a href="#" class="secondary-button" >Proceed →</a>
+                </div>
+                <div class="features-card">
+                    <img src="./assets/active.png" height="100px" width="100px">
+                    <h3>Updates </h3>
+                    <p>All updates related to your case can be accessed here</p> </p>
+                    <a href="#" class="secondary-button" >Proceed →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 pre-conference portal</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <!-- Video Conatiner-Section
+    <div class="Video">
+        <div class="container-video">
+            <h2>Checkout One of our Creations</h2>
+            
+            <iframe width="712" height="400" src="https://www.youtube.com/embed/D4S7mrEBJ2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p> The Song has been created more than 2 decades back and has ever since gave the pleasure of true music to its listeners.</p>
+        </div>
+    </div> -->
+
+    <!-- Footer Sections -->
+    <!-- <footer>
+        <div class="container-footer">
+            <div class="studio-logo">
+                <a href="#"  ><img  src="./assets/studio-logo.jpg" height="300px" width="300px" ></a>
+            </div>
+            <div class="contacts">
+                    <h1>Our Social Media Handles</h1>
+                    <a id="youtube" href="https://www.youtube.com/@classicmultitrackstudio1968"><img src="./assets/youtube.png" >@classicmultitrackstudio</a>
+                
+                
+                    <a id="insta" href="#"><img src="./assets/insta.png" >@classicmultitrackstudio</a>
+                
+                
+                    <a id="twitter" href="#"><img src="./assets/twitter.png" >@classicmultitrackstudio</a>
+                    
+                    <a id="fb" href="#"><img src="./assets/fb.png" >@classicmultitrackstudio</a>
+            </div>
+            <div class="address">
+                <h2>Contact Us</h2> <br> <br>
+                <p>Phone : #9991199922</p>
+                <p> Addess : B/007 , Cannaught Place , Delhi </p>
+                <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.112327979941!2d77.20498719837431!3d28.62892044507345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1691214765497!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+                 -->
+   
+    <!-- Sub-Footer Section -->
+    <div class="sub-footer"></div>
+
+    
 </body>
 </html>
-

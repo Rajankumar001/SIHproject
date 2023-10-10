@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: ; */
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 400px;
+    background: url(https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/bg-noise.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar img{
+    margin-right: 80px;
+    height:350px;
+    width: 15%;
+   
+}
+.nav-bar h2{
+   
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.faq-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.show{
+    display: block;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #3b3d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    display: flex;
+   /* justify-content: space-evenly; */
+   gap: 250px;
+    align-items: center;
+
+}
+.footer-text a {
+  text-decoration: none;
+  color: #fff;
+ 
+}
+.footer-text i{
+    font-size: 2rem;
+    color: #df920d;
+}
+
+.footer-text a span {
+    font-size: 1.5rem;
+    margin-left: 8px;
+}
+
+.faq-container h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.faq-item{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
